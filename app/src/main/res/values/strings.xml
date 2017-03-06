@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SocketDemo</string>
+    <string name="description_overview">Overview</string>
+    <string name="description_details">Details</string>
+    <string name="description_single_party">SingleParty</string>
+    <string name="description_multi_party">MultiParty</string>
+    <string name="description_shared_info">SharedInfo</string>
+    <string name="description_shared_file">SharedFile</string>
+    <string name="client">Client</string>
+    <string name="server">Server</string>
+</resources>

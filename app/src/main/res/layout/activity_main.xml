@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.ziv.socketdemo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_overview"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_details" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_single_party" />
+    <Button
+        android:id="@+id/btn_single_party_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/client"/>
+    <Button
+        android:id="@+id/btn_single_party_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_multi_party" />
+    <Button
+        android:id="@+id/btn_multi_party_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/client"/>
+    <Button
+        android:id="@+id/btn_multi_party_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_shared_info" />
+    <Button
+        android:id="@+id/btn_shared_info_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/client"/>
+    <Button
+        android:id="@+id/btn_shared_info_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/description_shared_file" />
+    <Button
+        android:id="@+id/btn_shared_file_client"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/client"/>
+    <Button
+        android:id="@+id/btn_shared_file_server"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/server"/>
+</LinearLayout>
